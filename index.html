@@ -43,7 +43,7 @@
 </head>
 
 <body class="font.manrope">
-    <header class="hidden">
+    <header class="">
         <div class="hero">
             
             <div class="flex flex-col lg:flex-row-reverse md:flex-row items-center justify-between">
@@ -91,9 +91,9 @@
 
     </header>
 
-    <main class="container mx-auto mt-32 hidden ">
+    <main class="container mx-auto mt-32">
 
-        <section class="Featured-Products space-y-4 hidden">
+        <section class="Featured-Products space-y-4 px-0 lg:px-[230px]">
         <h1 class="text-3xl font-extrabold text-[#1C1C1C] text-center">
             Our Featured Productucts
         </h1> 
@@ -144,7 +144,8 @@
         </div>
         </section>
 
-        <section class="Great-Tea mt-32 hidden">
+        <!-- <section class="Great-Tea mt-32">
+
 
             <div class="flex flex-col lg:flex-row md:flex-col gap-7">
 
@@ -184,109 +185,137 @@
         </div>
 
             </div>
-        </section>
+        </section> -->
 
-        <section class="Super-Clients mt-32 bg-gradient-to-r from-[#F00] opacity-0 to-[#FF8938] opacity-100 lg:px-[70px] m-4 lg:py-[95px] hidden">
-            <div class="flex flex-col lg:flex-row md:flex-row  justify-between items-center gap-y-[100px] p-2 lg:gap-x-[117px] relative hidden">
+        <section class="flex flex-col lg:flex-row  my-20 px-0 lg:px-[230px]    justify-between items-center gap-12 h-[593px] ">
 
-                <div class="flex-1 space-y-5">
-                    <h1 class="text-5xl font-extrabold text-black">
-                    Meet Our Super <br> Clients
+            <div class="flex-1 grid grid-cols lg:grid-cols-12 gap-7 w-full px-8 lg:px-0 ">
+
+                <div class="col-span-6 bg-gradient-to-r from-cyan-500 to-blue-500 h-[136px] rounded-xl"></div>
+
+                <div class="col-span-6 row-span-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-[355px]  flex items-center justify-center rounded-xl"><img src="./images/fresh-1.png" alt=""></div>
+
+                <div class="col-span-6 row-span-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-[355px] flex items-center justify-center rounded-xl"><img src="./images/fresh-2.png" alt=""></div>
+
+                <div class="col-span-6 bg-gradient-to-r from-cyan-500 to-blue-500 h-[136px] rounded-xl"></div>
+
+            </div>
+            <div class="flex-1 space-y-8 text-white px-8 lg:px-0 text-justify">
+                <h1 class="text-2xl lg:text-4xl font-extrabold text-black mb-5">
+                    Great Tea, Freshly <br>
+                     Presented
                 </h1>
-                    <p class="text-base font-medium text-black leading-7 max-w-[440px]">
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
-                    </p>
-                    <button class= "btn bg-[#FFF] text-[#ff3e1e] rounded-1">Show All</button>
-                </div>
-
-                <div class="flex-1">
-                    <!-- card 1 -->
-                    <div class=" bg-gradient-to-r from-[#F00] opacity-0 to-[#FF8938] opacity-80 rounded-lg px-2   lg:px-12 lg:py-8 mb-14 z-20 max-w-max pl-40 ">
-                        <figure><img class="relative -left-10 -top-5" src="./images/client.png" alt="Shoes" /></figure>
-                        <div>
-                
-                          <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                          <h3 class="text-base font-bold">Ilham Yuda</h3>
-                          <h4 class="text-base font-medium">
-                            Businessman
-                          </h4>
-                          <div class="card-actions justify-end">
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                                <circle cx="12.5" cy="3.64111" r="3.5" fill="#A2BDF6"/>
-                                <circle cx="3.5" cy="11.6411" r="3.5" fill="#A2BDF6"/>
-                                <circle cx="21.5" cy="11.6411" r="3.5" fill="#EDB7D5"/>
-                                <circle cx="12.5" cy="19.6411" r="3.5" fill="#EDB7D5"/>
-                                </svg>
-                            </button>
-                          </div>
-                        </div>
-                    </div>
-                    <!-- card 2 -->
-                    <div class=" bg-base-100 rounded-lg  lg:px-12 lg:py-8 absolute top-40 right-40 max-w-[220px] lg:max-w-[440px] z-50 hidden">
-                        <figure><img class="relative -left-16 -top-10" src="./images/client.png" alt="Shoes" /></figure>
-                        <div>
-                
-                          <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                          <h3 class="text-base font-bold">Ilham Yuda</h3>
-                          <h4 class="text-base font-medium">
-                            Businessman
-                          </h4>
-                          <div class="card-actions justify-end">
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                                <circle cx="12.5" cy="3.64111" r="3.5" fill="#A2BDF6"/>
-                                <circle cx="3.5" cy="11.6411" r="3.5" fill="#A2BDF6"/>
-                                <circle cx="21.5" cy="11.6411" r="3.5" fill="#EDB7D5"/>
-                                <circle cx="12.5" cy="19.6411" r="3.5" fill="#EDB7D5"/>
-                                </svg>
-                            </button>
-                          </div>
-                        </div>
-                    </div>
-                    <!-- card 3 -->
-                    <div class=" bg-gradient-to-r from-[#F00] opacity-0 to-[#FF8938] opacity-80 rounded-lg  lg:px-12 lg:py-8 z-20  max-w-[220px] hidden">
-                        <figure><img class="relative -left-16 -top-10" src="./images/client.png" alt="Shoes" /></figure>
-                        <div>
-                
-                          <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                          <h3 class="text-base font-bold">Ilham Yuda</h3>
-                          <h4 class="text-base font-medium">
-                            Businessman
-                          </h4>
-                          <div class="card-actions justify-end">
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                                <circle cx="12.5" cy="3.64111" r="3.5" fill="#A2BDF6"/>
-                                <circle cx="3.5" cy="11.6411" r="3.5" fill="#A2BDF6"/>
-                                <circle cx="21.5" cy="11.6411" r="3.5" fill="#EDB7D5"/>
-                                <circle cx="12.5" cy="19.6411" r="3.5" fill="#EDB7D5"/>
-                                </svg>
-                            </button>
-                          </div>
-                        </div>
-                    </div>
-
-
-                </div>
-
+                <p class="text-base font-medium leading-2 text-black mb-7">
+                    The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.
+                </p>
+                <h2 class=" text-base lg:text-xl md:text-xl font-extrabold text-black mb-2">Unique Taste</h2>
+                <p class="text-base font-medium leading-2 text-black mb-7">
+                    A Unique and different style from other teapots gives a luxurious and minimalist impression
+                </p>
+                <h2 class="text-base lg:text-xl md:text-xl font-extrabold text-black mb-2">Unique Taste</h2>
+                <p class="text-base lg:text-xl md:text-xl font-medium leading-2 text-black">
+                    A Unique and different style from other teapots gives a luxurious and minimalist impression
+                </p>
 
 
             </div>
+          </section>
 
+          <section class="mt-[1200px] lg:my-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 m-4 lg:m-0 lg:mx-[230px] rounded-2xl">
+            <div class="flex flex-col lg:flex-row p-[10px] lg:p-[70px] items-center lg:gap-[157px] ">
+                <div class="flex-1 space-y-5 w-[320px]">
+                    <h1 class="text-2xl lg:text-5xl font-extrabold text-black">
+                        Meet Our Super <br class="lg:block hidden"> Clients
+                    </h1>
+                        <p class="text-base font-medium text-black leading-7 max-w-[440px]">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                        </p>
+                        <button class= "btn bg-[#FFF] text-[#ff3e1e] rounded-1">Show All</button>
+                </div>
+                <div class="flex-1 relative w-[320px]">
 
-        </section>
+                    <!-- card 1 -->
+                    <div class="rounded-lg card-compact w-full lg:w-[433px] bg-base-100 relative opacity-20 border border-2">
+                        <figure class="absolute -top-3 -left-6">
+                            <img src="./images/client.png" alt="Shoes" />
+                        </figure>
+                        <div class="px-10 pt-10">
+                    
+                          <p class="mb-2">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+
+                          <h2 class="card-title ">Ilham Yuda</h2>
+                          <p>Businessman</p>
+                         
+                          <div class="card-actions justify-end">
+                            <img class="relative bottom-6" src="./images/circles.png" alt="">
+                          </div>
+                          
+
+                          
+                        </div>
+                        
+                      </div>
+                     <!-- card 1 --> 
+                    <!-- card 2 -->
+                    <div class="rounded-lg card-compact w-full lg:w-[433px] bg-base-100 absolute -left-5 lg:-left-[126px] top-32 lg:top-32 border border-2">
+                        <figure class="absolute -top-3 -left-6">
+                            <img src="./images/client.png" alt="Shoes" />
+                        </figure>
+                        <div class="px-10 pt-10">
+                    
+                          <p class="mb-2">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+
+                          <h2 class="card-title ">Ilham Yuda</h2>
+                          <p>Businessman</p>
+                         
+                          <div class="card-actions justify-end">
+                            <img class="relative bottom-6" src="./images/circles.png" alt="">
+                          </div>
+                          
+
+                          
+                        </div>
+                        
+                      </div>
+                     <!-- card 2 --> 
+                    <!-- card 3 -->
+                    <div class="rounded-lg card-compact w-full lg:w-[433px] bg-base-100 relative mt-16 lg:mt-16 opacity-5 border border-4 mb-8 lg:mb-0">
+                        <figure class="absolute -top-3 -left-6">
+                            <img src="./images/client.png" alt="Shoes" />
+                        </figure>
+                        <div class="px-10 pt-10">
+                    
+                          <p class="mb-2">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+
+                          <h2 class="card-title ">Ilham Yuda</h2>
+                          <p>Businessman</p>
+                         
+                          <div class="card-actions justify-end">
+                            <img class="relative bottom-6" src="./images/circles.png" alt="">
+                          </div>
+                          
+
+                          
+                        </div>
+                        
+                      </div>
+                     <!-- card 3 --> 
+
+                </div>
+            </div>
+          </section>
+          
         <!-- News and Events Section -->
-        <section class="mt-32 hidden">
-            <div class="container mxauto">
-                <h1 class="text-3xl font-extrabold text-[#1C1C1C] text-center">
+        <section class="mt-32 lg:mx-[230px]">
+            <div class="mt-">
+                <h1 class="text-3xl font-extrabold text-[#1C1C1C] text-center mb-5">
                     Our Featured Productucts
                 </h1> 
-                <p class="text-base font-medium leading-2 mx-auto lg:w-[900px] text-center">
+                <p class="text-base font-medium leading-2 mx-auto lg:w-[900px] text-center mb-9">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
                 </p>
                 <!-- card container -->
-                <div>
+                <div class="flex flex-col lg:flex-row gap-6 ml-6 lg:ml-0">
                     <!-- 1 card -->
                     <div class="card w-[364px] bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
@@ -297,7 +326,35 @@
                           <h2 class="card-title">Collecting 8 points for <br> discount</h2>
                           <p>There are many variations of passages of Lorem Ipsum available.</p>
                           <div class="card-actions">
-                            <button class="btn btn-primary">Learn More</button>
+                            <button class="">Learn More</button>
+                          </div>
+                        </div>
+                      </div>
+                       <!-- 2 card -->
+                    <div class="card w-[364px] bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="./images/news-1.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-base font-medium text-[#777]">Feb 05, 2027</p>
+                          <h2 class="card-title">Collecting 8 points for <br> discount</h2>
+                          <p>There are many variations of passages of Lorem Ipsum available.</p>
+                          <div class="card-actions">
+                            <button class="">Learn More</button>
+                          </div>
+                        </div>
+                      </div>
+                       <!-- 3 card -->
+                    <div class="card w-[364px] bg-base-100 shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img src="./images/news-1.png" alt="Shoes" class="rounded-xl" />
+                        </figure>
+                        <div class="card-body">
+                            <p class="text-base font-medium text-[#777]">Feb 05, 2027</p>
+                          <h2 class="card-title">Collecting 8 points for <br> discount</h2>
+                          <p>There are many variations of passages of Lorem Ipsum available.</p>
+                          <div class="card-actions">
+                            <button class="">Learn More</button>
                           </div>
                         </div>
                       </div>
@@ -306,15 +363,49 @@
 
 
         </section>
-
-
-
     </main>
     
     
+<!-- footer -->
 
+    <footer class="footer grid-cols-1 lg:grid-cols-12 lg:gap-x-[230px] gap-x-0 space-y-[10px] px-10 lg:px-[230px] py-20 lg:py-[130px] bg-base-200 text-base-content text-center lg:text-left my-32">
+        <nav class="place-items-center lg:place-items-start pl-32 lg:pl-0 mt-10 lg:mt-0">
+          <h6 class="footer-title">Services</h6> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        
+            <nav class="place-items-center lg:place-items-start pl-32 lg:pl-0 mt-10 lg:mt-0">
+                <h6 class="footer-title">Company</h6> 
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+              </nav> 
+              <nav class="place-items-center lg:place-items-start pl-32 lg:pl-0 mt-10 lg:mt-0">
+                <h6 class="footer-title">Legal</h6> 
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+              </nav>
+        
+        <form>
+          <h6 class="footer-title pl-32 lg:pl-0 mt-10 lg:mt-0" >Newsletter</h6> 
+          <fieldset class="form-control w-80">
+            <label class="label ml-20 lg:ml-0">
+              <span class="label-text">Enter your email address</span>
+            </label> 
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
 
-    <footer></footer>
+      <!-- footer -->
 
 </body>
 
